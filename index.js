@@ -21,4 +21,4 @@ client.once("ready", message => {
     loadCommands(client);
 });
 
-client.login(token);
+client.login(process.env.token);
